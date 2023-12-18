@@ -29,3 +29,12 @@ executable day-01-a
         aoc2023
     hs-source-dirs: src/day-01-a
     default-language: Haskell2010
+
+executable day-01-b
+    import: warnings
+    main-is: Main.hs
+    build-depends:
+        base ^>=4.17.2.1,
+        aoc2023
+    hs-source-dirs: src/day-01-b
+    default-language: Haskell2010
