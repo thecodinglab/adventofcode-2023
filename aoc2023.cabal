@@ -110,3 +110,13 @@ executable day-05-a
         aoc2023
     hs-source-dirs: src/day-05-a
     default-language: Haskell2010
+
+executable day-05-b
+    import: warnings
+    main-is: Main.hs
+    build-depends:
+        base ^>=4.17.2.1,
+        parsec ^>=3.1.17.0,
+        aoc2023
+    hs-source-dirs: src/day-05-b
+    default-language: Haskell2010
