@@ -15,7 +15,9 @@ common warnings
 
 library
     import: warnings
-    exposed-modules: Vec
+    exposed-modules: 
+      Vec,
+      Grid
     build-depends:
       base ^>=4.17.2.1
     hs-source-dirs: lib
@@ -67,4 +69,14 @@ executable day-03-a
         containers ^>=0.7,
         aoc2023
     hs-source-dirs: src/day-03-a
+    default-language: Haskell2010
+
+executable day-03-b
+    import: warnings
+    main-is: Main.hs
+    build-depends:
+        base ^>=4.17.2.1,
+        containers ^>=0.7,
+        aoc2023
+    hs-source-dirs: src/day-03-b
     default-language: Haskell2010
